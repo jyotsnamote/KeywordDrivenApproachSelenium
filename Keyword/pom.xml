@@ -12,6 +12,9 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<jre.level>10.0.2</jre.level>
+		<jdk.level>10.0.2</jdk.level>
+
 	</properties>
 	<build>
 		<plugins>
