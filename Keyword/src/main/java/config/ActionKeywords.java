@@ -3,7 +3,7 @@ package config;
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-import static executionEngine.DriverScriptTest.OR;
+import static executionEngine.DriverscriptTest.OR;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
@@ -13,7 +13,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import executionEngine.DriverScriptTest;
+import executionEngine.DriverscriptTest;
 import utility.Log;
 
 public class ActionKeywords {
@@ -44,7 +44,7 @@ public class ActionKeywords {
 			driver.manage().timeouts().implicitlyWait(implicitWaitTime, TimeUnit.SECONDS);
 		} catch (Exception e) {
 			Log.info("Not able to open the Browser --- " + e.getMessage());
-			DriverScriptTest.bResult = false;
+			DriverscriptTest.bResult = false;
 		}
 	}
 
@@ -56,7 +56,7 @@ public class ActionKeywords {
 			driver.get(Constants.URL);
 		} catch (Exception e) {
 			Log.info("Not able to navigate --- " + e.getMessage());
-			DriverScriptTest.bResult = false;
+			DriverscriptTest.bResult = false;
 		}
 	}
 
@@ -66,7 +66,7 @@ public class ActionKeywords {
 			driver.findElement(By.xpath(OR.getProperty(object))).click();
 		} catch (Exception e) {
 			Log.error("Not able to click --- " + e.getMessage(),driver);			
-			DriverScriptTest.bResult = false;
+			DriverscriptTest.bResult = false;
 			
 		}
 	}
@@ -78,7 +78,7 @@ public class ActionKeywords {
 			driver.findElement(By.xpath(OR.getProperty(object))).sendKeys(data);
 		} catch (Exception e) {
 			Log.error("Not able to Enter UserName --- " + e.getMessage(),driver);
-			DriverScriptTest.bResult = false;
+			DriverscriptTest.bResult = false;
 		}
 	}
 
@@ -88,7 +88,7 @@ public class ActionKeywords {
 			Thread.sleep(5000);
 		} catch (Exception e) {
 			Log.error("Not able to Wait --- " + e.getMessage(),driver);
-			DriverScriptTest.bResult = false;
+			DriverscriptTest.bResult = false;
 		}
 	}
 
@@ -98,7 +98,7 @@ public class ActionKeywords {
 			driver.quit();
 		} catch (Exception e) {
 			Log.error("Not able to Close the Browser --- " + e.getMessage(),driver);
-			DriverScriptTest.bResult = false;
+			DriverscriptTest.bResult = false;
 		}
 	}
 

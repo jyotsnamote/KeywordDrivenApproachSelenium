@@ -1,18 +1,19 @@
 package executionEngine;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import java.io.FileInputStream;
 import java.lang.reflect.Method;
 import java.util.Properties;
 import org.apache.log4j.xml.DOMConfigurator;
-import org.testng.annotations.Test;
 
 import config.ActionKeywords;
 import config.Constants;
 import utility.ExcelUtils;
 import utility.Log;
 
-public class DriverScriptTest {
+public class DriverscriptTest {
 
 	public static Properties OR;
 	public static ActionKeywords actionKeywords;
@@ -26,11 +27,12 @@ public class DriverScriptTest {
 	public static String sData;
 	public static boolean bResult;
 
-	public DriverScriptTest() throws NoSuchMethodException, SecurityException {
+	public DriverscriptTest() throws NoSuchMethodException, SecurityException {
 		actionKeywords = new ActionKeywords();
 		method = actionKeywords.getClass().getMethods();
 	}
-@Test
+
+	@Test
 	public static void Test() throws Exception {
 		ExcelUtils.setExcelFile(Constants.Path_TestData);
 		DOMConfigurator.configure("log4j.xml");
@@ -39,7 +41,7 @@ public class DriverScriptTest {
 		OR = new Properties(System.getProperties());
 		OR.load(fs);
 
-		DriverScriptTest startEngine = new DriverScriptTest();
+		DriverscriptTest startEngine = new DriverscriptTest();
 		startEngine.execute_TestCase();
 	}
 

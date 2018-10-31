@@ -495,3 +495,49 @@ Session ID: 302b363559498418a58fe831cd68ac87
 2018-10-31 15:45:06 [main] INFO  Log:35 - X
 2018-10-31 15:45:06 [main] INFO  Log:36 - X
 2018-10-31 15:45:06 [main] INFO  Log:37 - X
+2018-10-31 15:52:13 [main] INFO  Log:23 - ****************************************************************************************
+2018-10-31 15:52:13 [main] INFO  Log:24 - ****************************************************************************************
+2018-10-31 15:52:13 [main] INFO  Log:25 - $$$$$$$$$$$$$$$$$$$$$                 Login_01       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-10-31 15:52:13 [main] INFO  Log:26 - ****************************************************************************************
+2018-10-31 15:52:13 [main] INFO  Log:27 - ****************************************************************************************
+2018-10-31 15:52:13 [main] INFO  Log:43 - Opening Browser
+2018-10-31 15:52:17 [main] INFO  Log:43 - Chrome browser started
+2018-10-31 15:52:17 [main] INFO  Log:43 - Navigating to URL
+2018-10-31 15:52:20 [main] INFO  Log:43 - Clicking on Webelement btn_MyAccount
+2018-10-31 15:52:24 [main] WARN  Log:51 - Not able to click --- null
+2018-10-31 15:53:34 [main] INFO  Log:23 - ****************************************************************************************
+2018-10-31 15:53:34 [main] INFO  Log:24 - ****************************************************************************************
+2018-10-31 15:53:34 [main] INFO  Log:25 - $$$$$$$$$$$$$$$$$$$$$                 Login_01       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-10-31 15:53:34 [main] INFO  Log:26 - ****************************************************************************************
+2018-10-31 15:53:34 [main] INFO  Log:27 - ****************************************************************************************
+2018-10-31 15:53:34 [main] INFO  Log:43 - Opening Browser
+2018-10-31 15:53:40 [main] INFO  Log:43 - Chrome browser started
+2018-10-31 15:53:40 [main] INFO  Log:43 - Navigating to URL
+2018-10-31 15:53:45 [main] INFO  Log:43 - Clicking on Webelement btn_MyAccount
+2018-10-31 15:53:55 [main] WARN  Log:51 - Not able to click --- no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='account']/a"}
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'M5-D-HXFVXJ2', ip: '10.216.156.106', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\JYOTSN~1.PAT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55039}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 8d84eda7a642c2b3812dc0224d90b004
+*** Element info: {Using=xpath, value=.//*[@id='account']/a}
+2018-10-31 15:53:55 [main] INFO  Log:43 - Closing the browser
+2018-10-31 15:53:56 [main] INFO  Log:33 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-10-31 15:53:56 [main] INFO  Log:34 - X
+2018-10-31 15:53:56 [main] INFO  Log:35 - X
+2018-10-31 15:53:56 [main] INFO  Log:36 - X
+2018-10-31 15:53:56 [main] INFO  Log:37 - X
+2018-10-31 16:47:35 [main] INFO  Log:23 - ****************************************************************************************
+2018-10-31 16:47:35 [main] INFO  Log:24 - ****************************************************************************************
+2018-10-31 16:47:35 [main] INFO  Log:25 - $$$$$$$$$$$$$$$$$$$$$                 Login_01       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-10-31 16:47:35 [main] INFO  Log:26 - ****************************************************************************************
+2018-10-31 16:47:35 [main] INFO  Log:27 - ****************************************************************************************
+2018-10-31 16:47:35 [main] INFO  Log:43 - Opening Browser
+2018-10-31 16:47:39 [main] INFO  Log:43 - Chrome browser started
+2018-10-31 16:47:39 [main] INFO  Log:43 - Navigating to URL
+2018-10-31 16:47:41 [main] INFO  Log:43 - Clicking on Webelement btn_MyAccount
+2018-10-31 16:47:47 [main] WARN  Log:51 - Not able to click --- null
