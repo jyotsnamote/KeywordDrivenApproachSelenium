@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19029" started-at="2018-10-31T15:33:19Z" finished-at="2018-10-31T15:33:38Z">
+  <suite name="Default suite" duration-ms="18413" started-at="2018-10-31T10:14:48Z" finished-at="2018-10-31T10:15:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19029" started-at="2018-10-31T15:33:19Z" finished-at="2018-10-31T15:33:38Z">
+    <test name="Default test" duration-ms="18413" started-at="2018-10-31T10:14:48Z" finished-at="2018-10-31T10:15:06Z">
       <class name="executionEngine.DriverScriptTest">
-        <test-method status="PASS" signature="Test()" name="Test" duration-ms="19009" started-at="2018-10-31T15:33:19Z" finished-at="2018-10-31T15:33:38Z">
-        </test-method>
-      </class>
-    </test>
-  </suite>
+        <test-method status="PASS" signature="Test()[pri:0, instance:executionEngine.DriverScriptTest@10ab905]" name="Test" duration-ms="18364" started-at="2018-10-31T10:14:48Z" finished-at="2018-10-31T10:15:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- executionEngine.DriverScriptTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
