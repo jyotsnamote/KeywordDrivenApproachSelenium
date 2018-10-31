@@ -5,8 +5,8 @@ public class Constants {
  
 //List of System Variables
 public static final String URL = "http://www.store.demoqa.com";
-public static final String Path_TestData = "C:\\JyotsnaPatil\\workspace\\Trainings\\Keyword\\src\\main\\java\\utility\\TestData.xlsx";
-public static final String Path_OR = "C:\\JyotsnaPatil\\workspace\\Trainings\\Keyword\\src\\main\\java\\config\\OR.txt";
+public static final String Path_TestData = "C:\\JyotsnaPatil\\Projects\\KeywordDrivenApproachSelenium\\Keyword\\src\\main\\java\\utility\\TestData.xlsx";
+public static final String Path_OR = "C:\\JyotsnaPatil\\Projects\\KeywordDrivenApproachSelenium\\Keyword\\src\\main\\java\\config\\OR.txt";
 public static final String File_TestData = "DataEngine.xlsx";
  
 //List of Data Sheet Column Numbers
